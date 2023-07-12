@@ -26,8 +26,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    margin: 0 200px;
+
 }
+
 .nav-title {
     color: #181818;
     font-family: Open Sans;
@@ -36,7 +38,7 @@ nav {
     font-weight: 800;
     line-height: normal;
 
-}           
+}
 
 nav>ul {
     display: flex;
@@ -53,4 +55,23 @@ nav li {
 nav a {
     text-decoration: none;
     color: #181818;
+}
+
+/* header related styles */
+
+.header {
+    background-color: #FFF8F3;
+
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.pic {
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
 }
